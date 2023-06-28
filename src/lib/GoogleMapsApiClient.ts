@@ -1,5 +1,11 @@
-import { Coordinate } from '../types'
 import fetch from 'cross-fetch'
+
+type Coordinate = {
+  latLng: {
+    latitude: number
+    longitude: number
+  }
+}
 
 type TravelMode =
   | 'TRAVEL_MODE_UNSPECIFIED'
@@ -16,13 +22,13 @@ type RouteRequest = {
 
 type Route = { distanceMeters: number; duration: string }
 
-const INTERESTING_TRAVEL_MODES = ['BICYCLE', 'DRIVE', 'WALK']
-
 type DistanceInfos = {
   distanceInfos: { travelMode: TravelMode; info: Route }[]
   origin: string
   destination: string
 }
+
+const INTERESTING_TRAVEL_MODES = ['BICYCLE', 'DRIVE', 'WALK']
 
 export class GoogleMapsApiClient {
   private readonly apiKey: string

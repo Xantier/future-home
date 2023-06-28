@@ -40,7 +40,7 @@ future-home <the address you want to get distances from>
 
 ## TODO
 
-- [ ] Set up interests in a way that we can duplicate names and the distance to the closest one is return
+- [ ] Set up interests in a way that we can duplicate names and the distance to the closest one is returned
 - [ ] Prettier print / UI
 - [ ] Grading / Gravity of an interest, like A-F or 1-5. Giving the ability to assign a final score for the home.
 - [ ] More home information like square meterage, number of rooms etc. With grading so those can be used as a parameter to final score

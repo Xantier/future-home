@@ -1,0 +1,14 @@
+{
+  "interests": [
+    {
+      "name": "Climbing Gym",
+      "url": "http://google.com",
+      "address": "Olympus 3, 6832 EL Arnhem, Netherlands"
+    }  ,
+    {
+      "name": "Swimming pool",
+      "url": "http://google.com",
+      "address": "Olympus 29, 6832 EL Arnhem, Netherlands"
+    }
+  ]
+}
